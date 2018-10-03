@@ -1,9 +1,9 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node LOCALIZED_TEXT="SMAIS" FOLDED="false" ID="ID_2673356" CREATED="1538547927042" MODIFIED="1538547927042" STYLE="oval">
+<node TEXT="Test" FOLDED="false" ID="ID_2673356" CREATED="1538547927042" MODIFIED="1538548584524" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -63,6 +63,27 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="0" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="1" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="presentations">
+    <presentation NAME="New presentation 1"/>
+</hook>
+<cloud COLOR="#f0f0f0" SHAPE="ARC"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      zxzXz
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="hello world" POSITION="right" ID="ID_1379285693" CREATED="1538548627780" MODIFIED="1538548633434">
+<edge COLOR="#ff0000"/>
+</node>
 </node>
 </map>
